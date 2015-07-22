@@ -129,6 +129,8 @@
     <None Include="Properties\PublishProfiles\comp2007-lesson6-wed.pubxml" />
     <None Include="Properties\PublishProfiles\comp2007-lesson9-wed.pubxml" />
     <None Include="Properties\PublishProfiles\contoso-wed.pubxml" />
+    <None Include="Properties\PublishProfiles\lesson11-comp2007 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\lesson11-comp2007 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

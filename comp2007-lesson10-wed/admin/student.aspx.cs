@@ -104,7 +104,7 @@ namespace comp2007_lesson10_wed
                     Response.Redirect("students.aspx");
                 }
             }
-            catch(Exception e)
+            catch(Exception ex)
             {
                 Response.Redirect("~/ErrorPage.aspx?handler=Application_Error%20-%20Global.asax");
             }
@@ -131,7 +131,7 @@ namespace comp2007_lesson10_wed
                     GetStudent();
                 }
             }
-            catch(Exception e)
+            catch(Exception en)
             {
                 Response.Redirect("~/ErrorPage.aspx?handler=Application_Error%20-%20Global.asax");
             }

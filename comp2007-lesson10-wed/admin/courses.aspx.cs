@@ -65,7 +65,7 @@ namespace comp2007_lesson10_wed
                     GetCourses();
                 }
             }
-            catch(Exception e)
+            catch(Exception ec)
             {
                 Response.Redirect("~/ErrorPage.aspx?handler=Application_Error%20-%20Global.asax");
             }
